@@ -30,22 +30,13 @@ module.exports = function(grunt) {
 
     // Configuration to be run (and then tested).
     snow_js_retrieval: {
-      default_options: {
-        options: {
-        },
-        files: {
-          'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123']
-        }
-      },
-      custom_options: {
-        options: {
-          separator: ': ',
-          punctuation: ' !!!'
-        },
-        files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
-        }
-      }
+      options: {
+		instance: '',
+		userName: '',
+		password: '',
+		query: 'nameSTARTSWITHITCE',
+		destination: 'lib/scriptIncludes'
+      }      
     },
 
     // Unit tests.
@@ -71,3 +62,4 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['jshint', 'test']);
 
 };
+	
