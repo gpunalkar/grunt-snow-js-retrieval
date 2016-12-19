@@ -1,6 +1,6 @@
 # grunt-snow-js-retrieval
 
-> A simple timer that gets script includes (for now) for unit testing from a SNOW instance.
+> A simple task that gets script includes (for now) for unit testing from a SNOW instance.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
@@ -30,7 +30,7 @@ grunt.initConfig({
 		userName: 'username',
 		password: 'password',
 		query: 'nameSTARTSWITHITCE',
-		destination: 'test/scriptIncludes'
+		destination: 'lib/scriptIncludes'
     },
     your_target: {
       // Target-specific file lists and/or options go here.
@@ -67,7 +67,7 @@ The a specific filter you would like to extract scripts for. Currently it is set
 
 #### options.destination
 Type: `String`
-Default value: `'test/scriptIncludes'`
+Default value: `'lib/scriptIncludes'`
 
 The local folder you would like to store files to.
 

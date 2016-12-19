@@ -1,7 +1,7 @@
 {
   "name": "grunt-snow-js-retrieval",
   "description": "A simple timer that gets script includes (for now) for unit testing from a SNOW instance.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/itce/grunt-snow-js-retrieval",
   "author": {
     "name": "Andrey Dautev",

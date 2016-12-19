@@ -22,7 +22,7 @@ module.exports = function (grunt) {
 				userName: '',
 				password: '',
 				query: 'nameSTARTSWITHITCE',
-				destination: 'test/scriptIncludes'
+				destination: 'lib/scriptIncludes'
 			});
 
 		var Client = require('node-rest-client').Client;
