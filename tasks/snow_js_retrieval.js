@@ -40,6 +40,7 @@ module.exports = function (grunt) {
 			for(var i=0; i<data.result.length; i++) {
 				grunt.file.write(options.destination + data.result[i].name + '.js',data.result[i].script);
 			}
+			done();
 		});
 	});
 
